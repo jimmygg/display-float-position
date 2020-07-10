@@ -5,3 +5,52 @@ a{
 p{
 	display: inline;
 }
+
+.wrapper{
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#header{
+	background-color: bisque;
+	height: 100px;
+}
+
+#body{
+	background-color: chocolate;
+	width: 700px;
+	height: 80px;
+	float: left;
+}
+
+#sidebar{
+	background-color: darkgray;
+	width: 300px;
+	height: 80px;
+	float: left;
+}
+
+#lista{
+	background-color: green;
+	width: 300px;
+	float: left;
+}
+
+#social-media{
+	background-color: yellow;
+	width: 400px;
+	float: left;
+}
+
+#logo{
+	background-color: red;
+	width: 300px;
+	float: left;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
